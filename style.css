@@ -1,4 +1,73 @@
-h1 {
-    color: orange;
-    display: inline;
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.parent-container {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-sec {
+    height: 100%;
+    width: 50%;
+    background: white;
+    padding: 40px 20px 20px 20px;
+}
+
+.second-sec {
+    height: 100%;
+    width: 50%;
+    background: url("image/flower.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    display: flex;
+    position: relative;
+}
+
+.header-writeup {
+    color: tomato;
+}
+
+.smart-line {
+    height: 16px;
+    width: 224px;
+    background: tomato;
+}
+
+.header4 {
+    margin-bottom: 30px;
+}
+
+.header1 {
+    margin-bottom: 30px;
+}
+
+.paragraph {
+    margin-bottom: 30px;
+}
+
+.navbar {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+    width: 100%;
+}
+
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(225, 99, 71, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
 }
