@@ -12,6 +12,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .first-sec {
@@ -66,8 +67,70 @@ body {
 .overlay {
     height: 100%;
     width: 100%;
-    background: rgba(225, 99, 71, 0.5);
+    background: rgba(225, 99, 71, 0.3);
     position: absolute;
     top: 0;
     right: 0;
 }
+
+.middleparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.middle-left {
+    background: #d9d9d9;
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+}
+
+.middle-right {
+    height: 400px;
+    width: 330px;
+    margin-left: 20px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.bottomparent {
+    display: flex;
+    justify-content: center;
+    background: #d9d9d9;
+    padding: 20px 0;
+}
+
+.bottomleft {
+    width: 400px;
+    height: 420px;
+}
+
+.bottomright {
+    width: 400px;
+    height: 390px;
+}
+
+
+.bottomright {
+    background: orangered;
+    padding: 15px 25px 15px 25px;
+}
+
+.footer {
+    display: flex;
+    background: orangered;
+    color: white;
+    padding: 20px 0;
+    justify-content: space-evenly;
+}
+
+.footer-icon svg {
+    width: 25px;
+}
+
+
